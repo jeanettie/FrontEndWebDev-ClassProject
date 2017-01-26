@@ -79,6 +79,9 @@ p {
 
 p.small-txt {
   font-size: 80%;
+  
+  float: left;
+  
 }
 
 table {
