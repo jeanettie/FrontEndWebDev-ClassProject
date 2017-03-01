@@ -132,6 +132,13 @@ img {
   padding: 40px 20px;
 }
 
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
 
 /* ==========================================================================
    HEADER & HERO
@@ -220,7 +227,7 @@ nav a:hover {
 	float:left;
 	margin: 1% 0 1% 1.6%;
 }
-.col:first-child { margin-left: 0; }
+child { margin-left: 0; }
 
 .group:before,
 .group:after { content:""; display:table; }
@@ -228,11 +235,8 @@ nav a:hover {
 .group { zoom:1; /* For IE 6/7 */ }
 
 .span_1_of_2 {
-<<<<<<< HEAD
-  width:48.2%;
-=======
-  width: 48.2%;
->>>>>>> cdac135a75dc3f6f6a0b61afe0f78e7a8d56cf70
+width: 48.2%;
+
 }
 .span_2_of_2{
   width: 100%;
@@ -308,12 +312,11 @@ input.button:hover {
   color: #09C;
 }
 
-<<<<<<< HEAD
+
 .txt-red {
 color: #871719;
 
 }
-=======
 .nwsltr-label {
     float: left;
     display: block;
@@ -389,7 +392,7 @@ color: #871719;
 .red {
   color: #871719;
 }
->>>>>>> 2aa42b2926796a076e5350eba0e608e58d180d7a
+
 
 
 
@@ -399,6 +402,7 @@ footer {
     color: #F2F2F2;
 }
 
+
 .text-left {
   text-align: left;
 }
@@ -406,3 +410,4 @@ footer {
 .text-right {
   text-align: right;
 }
+
