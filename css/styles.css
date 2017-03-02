@@ -321,7 +321,7 @@ color: #871719;
 }
 
 .nwsltr-input {
-    width: 80%;
+    width: 100%;
     display: block;
     border: 1px solid #c0af8e;
     border-radius: 3px;
@@ -329,7 +329,7 @@ color: #871719;
     padding: 8px;
     margin: 0 0 10px 0;
     font-size: 100%;
-    float: left;
+   
 }
 
 .nwsltr-btn {
@@ -341,9 +341,9 @@ color: #871719;
     text-transform: uppercase;
     font-weight: 700;
     height: 40px;
-    width: 18%;
+    width: 100%;
     margin: 0 0 10px 0;
-    float: right;
+   display: block;
 }
 
 .nwsltr-btn:hover {
@@ -431,6 +431,21 @@ footer {
   width: 24.95%;
   display: inline-block;
   max-width: 110px;
+}
+
+.nwsltr-input {
+    width: 70%;
+    display: block;
+    
+    float: left;
+}
+
+.nwsltr-btn {
+    
+    
+    width: 20%;
+   
+    float: right;
 }
 
 
