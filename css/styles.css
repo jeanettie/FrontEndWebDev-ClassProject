@@ -140,6 +140,10 @@ img {
   text-align: right;
 }
 
+.text-center {
+  text-align: center;
+}
+
 /* ==========================================================================
    HEADER & HERO
    ========================================================================== */
@@ -156,7 +160,6 @@ header {
   text-align: center;
   min-height: 80vh;
 }
-
 
 
 nav::after {
@@ -231,7 +234,9 @@ child { margin-left: 0; }
 .group { zoom:1; /* For IE 6/7 */ }
 
 .span_1_of_2 {
+
 width: 100%;
+
 
 }
 .span_2_of_2{
@@ -321,7 +326,9 @@ color: #871719;
 }
 
 .nwsltr-input {
+
     width: 100%;
+
     display: block;
     border: 1px solid #c0af8e;
     border-radius: 3px;
@@ -329,7 +336,7 @@ color: #871719;
     padding: 8px;
     margin: 0 0 10px 0;
     font-size: 100%;
-   
+
 }
 
 .nwsltr-btn {
@@ -341,9 +348,10 @@ color: #871719;
     text-transform: uppercase;
     font-weight: 700;
     height: 40px;
-    width: 100%;
-    margin: 0 0 10px 0;
-   display: block;
+
+    float: right;
+    display: block;
+
 }
 
 .nwsltr-btn:hover {
@@ -401,6 +409,7 @@ footer {
 }
 
 
+
 .text-left {
   text-align: left;
 }
@@ -414,48 +423,38 @@ footer {
 
 
 
-/* Media Queries  */
 
 
 
 
 
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
 @media screen and (min-width: 994px) {
+  .span_1_of_2 {
+      width: 49.2%;
+  }
 
   nav {
-  margin-top: 4em;
-}
-  
-  
+    margin-top: 4em;
+  }
+
   nav li {
-  width: 24.95%;
-  display: inline-block;
-  max-width: 110px;
-}
+      width: 24.95%;
+      max-width: 110px;
+      border-bottom: none;
+      display: inline-block;
+  }
 
-.nwsltr-input {
+  .nwsltr-input {
     width: 70%;
-    display: block;
-    
     float: left;
-}
+  }
 
-.nwsltr-btn {
-    
-    
+  .nwsltr-btn {
     width: 20%;
-   
-    float: right;
-}
-
-.span_1_of_2 {
-width: 48.2%;
+  }
 
 }
-.span_2_of_2{
-  width: 48.2%;
-}
-
-
-} /* Media */
 
